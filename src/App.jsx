@@ -7,7 +7,7 @@ export default function App() {
     { 
       id: 'welcome', 
       role: 'bot', 
-      text: "Halo! Saya Necko AI v4.0. Sistem saya sudah di-upgrade dengan visual ultra. Ada yang bisa saya bantu hari ini? ✨",
+      text: "Halo! Saya Necko AI v1.0. Ada yang bisa saya bantu hari ini? ✨",
       isTyping: false 
     }
   ]);
@@ -81,7 +81,7 @@ export default function App() {
       setMessages(prev => [...prev, { 
         id: Date.now().toString(), 
         role: 'bot', 
-        text: "Koneksi terputus. Pastikan server lokal Anda aktif." 
+        text: "Koneksi terputus ke server, Coba lagi nanti yaaa🤗" 
       }]);
     }
   };
