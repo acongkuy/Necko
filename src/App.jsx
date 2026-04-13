@@ -15,7 +15,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef(null);
 
-  const API_URL = "https://b57b-2400-9800-1f2-6721-613f-5599-8b67-e4d.ngrok-free.app/chat";
+  const API_URL = "https://0ef6-2001-448a-20b0-78e0-d28b-c97c-614d-b400.ngrok-free.app/";
 
   const forceScrollToBottom = () => {
     if (scrollRef.current) {
@@ -248,7 +248,7 @@ export default function App() {
                 </div>
                 <div className="flex items-center gap-1.5 px-2 py-1 bg-white/5 rounded border border-white/5">
                    <Info className="w-3 h-3 text-indigo-400" />
-                   <span className="text-[10px] text-slate-500 font-black tracking-widest uppercase">SSL-X</span>
+                   <span className="text-[10px] text-slate-500 font-black tracking-widest uppercase">CHUNSKY-PROJECT</span>
                 </div>
              </div>
              <p className="text-[9px] text-slate-700 font-black tracking-[0.4em] uppercase">
