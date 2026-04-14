@@ -15,7 +15,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef(null);
 
-  const API_URL = "http://104.248.150.142:8000//chat";
+  const API_URL = "http://104.248.150.142:8000/chat";
 
   const forceScrollToBottom = () => {
     if (scrollRef.current) {
