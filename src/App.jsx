@@ -15,7 +15,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef(null);
 
-  const API_URL = "https://0ef6-2001-448a-20b0-78e0-d28b-c97c-614d-b400.ngrok-free.app/chat";
+  const API_URL = "http://104.248.150.142:8000//chat";
 
   const forceScrollToBottom = () => {
     if (scrollRef.current) {
