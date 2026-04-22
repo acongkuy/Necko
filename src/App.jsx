@@ -15,7 +15,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef(null);
 
-  const API_URL = "https://api.nexray.web.id/ai/claude/chat";
+  const API_URL = "https://api.nexray.web.id/ai/claude";
 
   const forceScrollToBottom = () => {
     if (scrollRef.current) {
